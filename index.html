@@ -1,0 +1,45 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>My Weather</title>
+  <link rel="shortcut icon" href="img/favicon.png" />
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  <link rel="stylesheet" href="css/styles.css?v=1.0">
+  <link rel="stylesheet" href="css/weather-icons.min.css?v=1.0">
+  <script src="main.js"></script>
+
+
+  <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+  <![endif]-->
+</head>
+
+
+<body>
+  <article>
+    <div id="main">
+      <h1>My Weather</h1>
+      <div id="page-loader" class="loader"></div>
+      <p id="city-country"></p>
+      <p id="current-degrees"></p>
+      <p><span id="general"></span><span><i id="weather-icon"></i></span></p>
+    </div>
+  </article>
+  <footer>
+    <p class="credit">Created by <a href="https://github.com/hakabuk" target="_blank">Michal Weizman</a>
+    <p class="credit">Photo by <a href="https://unsplash.com/@jlcrcfx">Jean-Luc Crucifix</a> on <a href="https://unsplash.com/">Unsplash</a></p>
+    </p>
+  </footer>
+</body>
+</html>

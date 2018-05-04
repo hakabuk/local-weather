@@ -1,0 +1,76 @@
+body {
+	background: url('../img/background.jpg') no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#main {
+	background-color: rgba(255, 255, 255, 0.6);
+	border-radius: 5px;
+	max-width: 60%;
+	min-height: 100%;
+	padding: 10px 20px 15px 30px;
+	margin: auto;
+	margin-top: 50px;
+	text-align: center;
+}
+
+.loader {
+	position: relative;
+	top: 70%;
+	margin: 20px auto auto auto;
+	border: 8px solid #f3f3f3; /* Light grey */
+	border-top: 8px solid #3498db; /* Blue */
+	border-radius: 50%;
+	width: 60px;
+	height: 60px;
+	animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
+p {
+	font-size: 1.5em;
+}
+
+#current-degrees {
+	cursor: pointer;
+	color: blue;
+	text-decoration: underline;
+	background-color: none;
+}
+
+#weather-icon {
+	padding-left: 5px;
+}
+
+footer {
+	background-color: rgb(54, 54, 54, 0.7);
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+}
+
+.credit {
+	color: white;
+	font-size: 12px;
+	line-height: 40%;
+	text-align: center;
+	text-align: bottom;
+	padding-top: 5px;
+}
+
+.credit a {
+	color: lightblue;
+}
